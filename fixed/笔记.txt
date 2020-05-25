@@ -1,0 +1,4 @@
+dx --dex --output=./fixed.dex me\donlis\multidexdemo\Test.class
+
+cd fixed
+adb push fixed.dex /mnt/sdcard/fixed.dex
